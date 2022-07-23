@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 
 /**
 * main - entry point
@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 {
 	int i;
 
-	for (1 = 0; i < argc; 1++)
+	for (i = 0; i < argc; i++)
 		printf("%s\n", argv[i]);
 	return (0);
 }
